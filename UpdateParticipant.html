@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamin Gym </title>
+    <link rel="stylesheet" href="UpdateParticipant.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="bx bxs-home-smile"></i><span>Logo</span></a>
+        
+        <ul class="navbar">
+            <li><a href="Nav.html" class="active">Home</a></li>
+            <li><a href="AddBatch.html">Add Batch</a></li>
+            <li><a href="AddParticipant.html">Add Participant</a></li>
+            <li><a href="UpdateBatch.html">Update Batch</a></li>
+            <li><a href="UpdateParticipant.html">Update Participant</a></li>
+        </ul>
+        
+        <div class="main">
+            <a href="#" class="user"><i class="bx bxs-user"></i>Sign in</a>
+            <a href="#" >Contact</a>
+            <div id="menu-icon"><i class="bx bx-menu"></i></div>   
+        </div>
+    </header>
+    <section>
+        <form class="form" method="post" action="updateparticipant">
+            <fieldset class="fieldset">
+                <legend>@Update Participant</legend>
+                <label for="updateparticipantAge">Enter Your New Age: </label>
+                <input id="updateparticipantAge" type="number" name="newparticipantage" placeholder="Enter Your New Age"><br><br>
+                <label for="updateparticipantHeight">Enter Your New Height: </label>
+                <input id="updateparticipantHeight" type="number" name="newparticipantHeight" placeholder="Enter Your New Height" required><br><br>
+                <label for="updateparticipantWeight">Enter Your New Weight: </label>
+                <input id="updateparticipantWeight" type="number" name="newparticipantweight" placeholder="Enter Your New Weight" required><br><br>
+                <label for="updateparticipantPhone">Enter Your New PhoneNumber: </label>
+                <input id="updateparticipantPhone" type="number" name="newparticipantnumber" placeholder="Enter Your New PhoneNumber" required><br><br>
+                
+                <label for="updateparticipantTime">Enter Your New Batch Time: </label>
+                <input id="updateparticipantTime" type="time" name="newparticipanttime" placeholder="Enter Your New Batch Time" required><br><br>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <script type="text/javascript" src="UpdateParticipant.js"></script>
+</body>
+</html>
